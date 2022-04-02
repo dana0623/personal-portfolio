@@ -1,38 +1,296 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: #000000;
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h3, h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold !important;
+}
+
+
+
+/************************* NAVBAR **************************/
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+nav a.nav-link {
+  font-size: 14px;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+}
+
+.navbar-nav > li > a.active:focus,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/************************* HEADER **************************/
+
+#title .container {
+  align-items: center;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.header-title {
+  font-size: 4.5vw;
+}
+
+.header-btn-container {
+  margin-top: 8%;
+}
+
+.header-btn {
+  margin-top: 3%;
+  font-size: 1rem !important;
+  padding: 12px 30px !important;
+}
+
+.check-work-btn:hover {
+  background-color: var(--primary-orange) !important;
+  border-color: var(--primary-orange) !important;
+}
+
+h1 span {
+  color: var(--primary-white);
+  background-color: black;
+}
+
+@media (max-width: 820px) {
+  #title {
+    align-items: center;
+    text-align: center;
+  }
+  .header-title {
+    font-size: 1.5rem;
+  }
+}
+/************************* HEADER TYPED TEXT **************************/
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-orange);
+}
+
+@media (max-width: 820px) {
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
+/************************* PARAGRAPH TEXTS **************************/
+
+.container-info {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-right: 15px;
+  margin-left: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-title {
+  margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-title h1 {
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-text {
+  line-height: 1;
+  color: grey;
+}
+
+
+/************************* PORTFOLIO **************************/
+
+.filter {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.filter-btn {
+  background-color: #F0F0F0 !important;
+  font-size: 0.8rem !important;
+}
+
+.filter-btn:hover {
+  background-color: var(--primary-orange) !important;
+  border-color: var(--primary-orange) !important;
+  color: var(--primary-white) !important;
+}
+
+.btn-github {
+  text-align: right;
+  margin: auto !important;
+}
+
+.desc-text {
+  text-align: left;
+}
+
+.app-desc {
+  font-size: 14px;
+}
+
+.portfolio-container {
+  padding: 70px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.portfolio-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.apps {
+  width: 30%;
+}
+
+.p {
+  width: 100%;
+  height: 380px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+
+.p-browser {
+  height: 1.25rem;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+}
+
+.p-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: #fff;
+}
+
+.p-img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .apps {
+    width: 100%;
+    height: 100%;
+  }
+  .p {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+}
+
+/************************* RESUME **************************/
+.resume-title span{
+    color: white;
+    background-color: black;
+    box-shadow: 10px 0 0px 0px black, -10px 0 0px 0px black;
+}
+
+.resume-title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.resume-subtitle {
+  font-weight: bold;
+}
+
+.resume-text {
+  color: grey;
+}
+
+.resume-btn {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.card-group {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card-group {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem !important;
+  }
+}
+
+
+
+
+/************************* CONTACT FORM **************************/
+@media (max-width: 768px) {
+  #contact {
+    width: 100% !important;
+  }
+}
+
+.contact-btn {
+  margin-top: 30px;
+  border: none;
+}
+
+/************************* FOOTER **************************/
+
+.footer-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: white;
+  height: 17vh;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-info {
+  font-family: "Roboto" sans-serif;
+  color: black;
+  font-size: 12px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-social {
+  margin: 10px 10px 30px 10px;
+  font-size: 40px !important;
 }

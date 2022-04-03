@@ -1,4 +1,6 @@
 import React from "react";
+import axios from 'axios'
+import fileDownload from 'js-file-download'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileCode } from "@fortawesome/free-solid-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
@@ -8,8 +10,17 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 
 const Resume = () => {
+
+    const handleDownload = (url, filename) => {
+        axios.get(url, {
+          responseType: 'blob',
+        })
+        .then((res) => {
+          fileDownload(res.data, filename)
+        })
+      }
   
-  return (
+    return (
     
     <div id="resume" className="container-info">
       <div className="container-title">
@@ -92,8 +103,13 @@ const Resume = () => {
         </div>
       </div>
       <p className="resume-subtitle">Download my CV as PDF file:</p>
-      <button className="resume-btn btn-dark btn btn-lg"> <FontAwesomeIcon icon={faAngleDown} size="sm" style={{ marginRight: "10px"}} /> Download CV</button>
-    
+
+      
+      <button className="resume-btn btn-dark btn btn-lg" onClick={() => {handleDownload('./CV-NataliaDadasova.pdf', 'CV-NataliaDadasova.pdf')
+}}> <FontAwesomeIcon icon={faAngleDown} size="sm" style={{ marginRight: "10px"}} />Download CV</button>
+   
+
+      
         </div>
       
     </div>

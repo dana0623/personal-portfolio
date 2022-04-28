@@ -105,7 +105,7 @@ const Resume = () => {
       <p className="resume-subtitle">Download my CV as PDF file:</p>
 
       
-      <button className="resume-btn btn-dark btn btn-lg" onClick={() => {handleDownload('./CV-NataliaDadasova.pdf', 'CV-NataliaDadasova.pdf')
+      <button className="resume-btn btn-dark btn" onClick={() => {handleDownload('./CV-NataliaDadasova.pdf', 'CV-NataliaDadasova.pdf')
 }}> <FontAwesomeIcon icon={faAngleDown} size="sm" style={{ marginRight: "10px"}} />Download CV</button>
    
 

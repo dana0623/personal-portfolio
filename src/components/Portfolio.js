@@ -1,10 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEye } from "@fortawesome/free-solid-svg-icons"
 
 
 const Portfolio = ({menuItem, button, filter}) => {
-  
+
   return (
     <div className="container-info" id="portfolio">
       <div className="container-title">
@@ -28,29 +29,46 @@ const Portfolio = ({menuItem, button, filter}) => {
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
               </div>
-              <a href="http://google.com" target="_blank" rel="noreferrer">
-              <img src={item.img} alt="" className="p-img"></img>
-              </a>
+              <img src={item.img} alt="" className="p-img" ></img>
+              <div className="btn-app-container">
+              <button onClick={(e) => {
+      e.preventDefault();
+      window.open(item.url, "_blank");
+      }} className="btn bg-transparent btn-app me-4">
+                <FontAwesomeIcon
+                    icon={faEye}
+                    size="2x"
+                    color="white"
+                />
+                </button>
+                <button onClick={(e) => {
+      e.preventDefault();
+      window.open(item.github_url, "_blank");
+      }} className="btn bg-transparent btn-app github-btn">
+                <FontAwesomeIcon
+                    icon={faGithub}
+                    size="2x"
+                    color="white"
+                />
+                </button>
+                
+              </div>
+            
+              
             </div>
-            <div className="row">
-              <div className="desc-text col-lg-8">
+            {/* <div className="row"> */}
+              <div className="desc-text">
                 <h5>{item.app_title}</h5>
                 <p>{item.tech_used}</p>
                 <p className="container-text app-desc">{item.description}</p>
               </div>
-              <div className="col-lg-4 btn-github">
-                <button className="btn btn-outline-dark btn-sm github">
-                <FontAwesomeIcon
-                    icon={faGithub}
-                    size="1x"
-                    style={{ marginRight: "5px"}}
-                />Github repo
-                </button>
-              </div>
+              
             </div>
-          </div>
+    
           ))}
+          
         </div>
+        
       </div>
   );
 };

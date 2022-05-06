@@ -4,7 +4,7 @@ export default [
       img: "../images/cafe_search.png",
       app_title: "Cafe Search App",
       category: "Python",
-      tech_used: ["Python", " Flask", " API", " SQLAlchemy"],
+      tech_used: ["Python,", " Flask,", " API,", " SQLAlchemy"],
       description: "Web app for searching cafes nearby with data on power socket availability, wifi speed and coffee quality. Possible to add a new cafe through /add route",
       url: "http://google.com",
       github_url: "http://yahoo.com"
@@ -12,19 +12,20 @@ export default [
     {
       id: 2,
       img: "../images/mapty2.png",
-      category: "Python",
+      category: "JavaScript",
       app_title: "Mapty",
-      tech_used: ["JavaScript", " API"],
-      description: "Web app to track activities on the map",
+      tech_used: ["JavaScript,", " Geolocation API,", " External Libraries,", " OOP"],
+      description: "Web app to log and show activities on the map, using geolocation",
       url: "http://google.com",
       github_url: "http://yahoo.com"
     },
     {
       id: 3,
       img: "../images/forkify.png",
-      category: "React",
+      category: "JavaScript",
       app_title: "Forkify",
-      description: "Web app for searching recipes, API use",
+      tech_used: ["JavaScript,", " API,", " Modules,", " OOP,", " Parcel"],
+      description: "Web app for registering and searching recipes. Made using asynchronous JavaScript. ",
       url: "http://google.com",
       github_url: "http://yahoo.com"
     },

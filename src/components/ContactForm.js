@@ -4,6 +4,9 @@ import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "react-toastify/dist/ReactToastify.min.css";
 
 const СontactForm = () => {
@@ -61,16 +64,39 @@ const СontactForm = () => {
     <div
       className="container"
       id="contact"
-      style={{ marginTop: "50px", marginBottom: "50px", width: "40%" }}
+      style={{ marginTop: "50px", marginBottom: "50px", width: "100%" }}
     >
     <div className="container-info">
       <div className="container-title">
-        <h1 style={{ marginTop: "25px", textAlign: "center" }}>Contact</h1>
+        <h1 style={{ marginTop: "25px", textAlign: "center" }}>Let's Talk!</h1>
       </div>
       <div className="container-text">
         <p> Want to discuss your next project? </p>
       </div>
       </div>
+      <div className="row">
+      <div className="contact-info col-sm">
+        <h3>dev@nataliadadasova.com</h3>
+        <button className="btn-social btn" onClick={(e) => {
+      e.preventDefault();
+      window.open("http://facebook.com/dana0623", "_blank");
+      }}>
+                <FontAwesomeIcon icon = { faFacebook}></FontAwesomeIcon>
+                </button>
+                <button className="btn-social btn" onClick={(e) => {
+      e.preventDefault();
+      window.open("http://linkedin.com/in/nataliadadasova", "_blank");
+      }}>
+                <FontAwesomeIcon icon = { faLinkedin}></FontAwesomeIcon>
+                </button>
+                <button className="btn-social btn" onClick={(e) => {
+      e.preventDefault();
+      window.open("http://github.com/dana0623", "_blank");
+      }}>
+                <FontAwesomeIcon icon = { faGithub}></FontAwesomeIcon>
+                </button>
+      </div>
+      <div className="contact-form col-sm">
       <form
         className="row"
         style={{ margin: "auto" }}
@@ -127,12 +153,14 @@ const СontactForm = () => {
           )}
         </div>
         <div className="text-center">
-          <button className="btn contact-btn btn-dark" type="submit">
+          <button className="btn rounded-pill contact-btn btn-dark" type="submit">
           <FontAwesomeIcon icon={faPaperPlane} size="sm" style={{ marginRight: "10px"}} />Send
           </button>
         </div>
       </form>
       <ToastContainer />
+      </div>
+    </div>
     </div>
   );
 };

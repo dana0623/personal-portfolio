@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer-info">
                 
-                <p>© Website by Natalia Dadasova {currentYear}</p>
+                <p>© Website made on React {currentYear}</p>
             </div>
         </div>
     )

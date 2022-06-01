@@ -39,7 +39,7 @@ const Resume = () => {
         <p className="resume-subtitle">STEK, South Korea</p>
         <p className="resume-text">Digital Marketing Team Lead, 2017-2021</p>
         <p className="resume-subtitle">Dotrade, South Korea</p>
-        <p className="resume-text">Junior Web Developer, 2015-2017</p>
+        <p className="resume-text">Digital Marketing Manager, 2015-2017</p>
         
         </div>
         </div>

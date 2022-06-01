@@ -76,7 +76,7 @@ const СontactForm = () => {
       </div>
       <div className="row">
       <div className="contact-info col-sm">
-        <h3>dev@nataliadadasova.com</h3>
+        <h3>dana0623@business.kaist.edu</h3>
         <button className="btn-social btn" onClick={(e) => {
       e.preventDefault();
       window.open("http://facebook.com/dana0623", "_blank");

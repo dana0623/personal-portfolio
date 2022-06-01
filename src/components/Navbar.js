@@ -7,7 +7,8 @@ import "bootstrap/js/src/collapse.js";
 
 const Navbar = () => {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark
+     bg-black">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">D.NA
         </a>

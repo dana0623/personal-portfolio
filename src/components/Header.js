@@ -22,8 +22,8 @@ const Header = () => {
           <img src="./images/profile-image.jpeg" alt="profile-img" className="profile-img img-fluid rounded"></img>
         </div>
         <div className="header-text-container col-lg-7">
-        <h4 className="header-subtitle" >Welcome!</h4>
-          <h1 className="header-title" >I'm Natalia Dadasova.</h1>
+        <h4 className="header-subtitle" >Full-stack web developer</h4>
+          <h1 className="header-title" >Natalia Dadasova</h1>
           <Typed
             className="typed-text"
             strings={[

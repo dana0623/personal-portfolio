@@ -3,7 +3,7 @@
 :root {
   --primary-white: #fff;
   --primary-light: #f4f8ff;
-  --primary-orange: #ff6700;
+  --primary-orange: #ff6500;
   --primary-dark: #000000;
 }
 body {
@@ -323,6 +323,7 @@ nav a.nav-link {
 
 .p-img {
   width: 100%;
+  height: 16.25rem;
   display: block;
 }
 

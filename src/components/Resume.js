@@ -103,7 +103,7 @@ const Resume = () => {
             </h3>
             <p className="card-text">Functional App Dev</p>
             <p style={{ fontWeight: "bold" }}>Languages:</p>
-            <p>React Native</p>
+            <p>React Native (Learning)</p>
             <p style={{ fontWeight: "bold"}}>Dev Tools:</p>
             <p>Xcode</p>
           </div>

@@ -19,7 +19,7 @@ const Header = () => {
     <section className="header" id="title">
       <div className="container row">
         <div className="profile-img-container col-lg-5">
-          <img src="./images/profile-image.jpeg" alt="profile-img" className="profile-img img-fluid rounded"></img>
+          <img src="./images/profile.jpg" alt="profile-img" className="profile-img img-fluid rounded"></img>
         </div>
         <div className="header-text-container col-lg-7">
         <h4 className="header-subtitle" >Full-stack web developer</h4>
@@ -43,7 +43,7 @@ const Header = () => {
           <Link to="portfolio" smooth={true} duration={500} offset={-100}>
             <button className="header-btn btn rounded-pill btn-outline-light check-work-btn .text-nowrap me-4">MY WORK</button>
           </Link>
-          <button className="header-btn resume-btn rounded-pill btn " onClick={() => {handleDownload('./CV-NataliaDadasova.pdf', 'CV-NataliaDadasova.pdf')
+          <button className="header-btn resume-btn rounded-pill btn " onClick={() => {handleDownload('./Resume-Natalia.pdf', 'Resume-Natalia.pdf')
 }}> <FontAwesomeIcon icon={faAngleDown} size="sm" style={{ marginRight: "10px"}} />DOWNLOAD CV</button>
    
           </div>

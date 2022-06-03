@@ -4,10 +4,10 @@ export default [
       img: "../images/cafe_search.png",
       app_title: "Cafe Search App",
       category: "Python",
-      tech_used: ["Python,", " Flask,", " API,", " SQLAlchemy"],
+      tech_used: ["Python,", " Full Stack,", " Flask,", " API,", " SQLAlchemy"],
       description: "Web app for searching cafes nearby with data on power socket availability, wifi speed and coffee quality. Possible to add a new cafe through /add route",
-      url: "http://google.com",
-      github_url: "http://yahoo.com"
+      url: "https://github.com/dana0623/coffee-wifi",
+      github_url: "https://github.com/dana0623/coffee-wifi"
     },
     {
       id: 2,
@@ -26,8 +26,8 @@ export default [
       app_title: "Mapty",
       tech_used: ["JavaScript,", " Geolocation API,", " External Libraries,", " OOP"],
       description: "Web app to log and show activities on the map, using geolocation",
-      url: "http://google.com",
-      github_url: "http://yahoo.com"
+      url: "https://github.com/dana0623/geolocation-app",
+      github_url: "https://github.com/dana0623/geolocation-app"
     },
     {
       id: 4,
@@ -41,13 +41,13 @@ export default [
     },
     {
       id: 5,
-      img: "../images/forkify.png",
+      img: "../images/forkify-img.png",
       category: "JavaScript",
       app_title: "Forkify",
       tech_used: ["JavaScript,", " API,", " Modules,", " OOP,", " Parcel"],
       description: "Web app for registering and searching recipes. Made using asynchronous JavaScript. ",
-      url: "http://google.com",
-      github_url: "http://yahoo.com"
+      url: "https://github.com/dana0623/recipe-app",
+      github_url: "https://github.com/dana0623/recipe-app"
     },
     {
       id: 6,
@@ -56,28 +56,18 @@ export default [
       app_title: "Bankist",
       tech_used: ["JavaScript,", " HTML, ", "CSS"],
       description: "Minimalistic online banking application that allows user to login, transfer money, request a loan and delete account.",
-      url: "http://google.com",
-      github_url: "http://yahoo.com"
+      url: "https://github.com/dana0623/onlinebanking-app",
+      github_url: "https://github.com/dana0623/onlinebanking-app"
     },
     {
       id: 7,
-      img: "../images/to-do-list.png",
-      category: "JavaScript",
-      app_title: "To-Do-List",
-      tech_used: ["JavaScript, ", "HTML, ", "CSS"],
-      description: "Simple Task Tracker with a function to set reminder, add and delete scheduled tasks.",
-      url: "http://google.com",
-      github_url: "http://yahoo.com"
-    },
-    {
-      id: 8,
-      img: "../images/messenger2.png",
-      category: "React",
-      app_title: "Messenger App",
-      tech_used: ["JavaScript,", " API,", " Modules,", " OOP,", " Parcel"],
-      description: "Web app for searching recipes, API use",
-      url: "http://google.com",
-      github_url: "http://yahoo.com"
+      img: "../images/travel-blog.png",
+      category: "Python",
+      app_title: "Travel Blog Template",
+      tech_used: ["Python, ", "HTML, ", "CSS, ", "Full Stack, ","User Authentication", ", SQLite"],
+      description: "Travel blog template with a function of user sign up, login, leaving comments, add blog posts and delete them.",
+      url: "https://github.com/dana0623/blog-template",
+      github_url: "https://github.com/dana0623/blog-template"
     },
     
   

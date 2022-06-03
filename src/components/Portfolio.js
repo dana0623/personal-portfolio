@@ -9,7 +9,7 @@ const Portfolio = ({menuItem, button, filter}) => {
   return (
     <section className="container-info portfolio" id="portfolio">
       <div className="container-title">
-        <h1 className="portfolio-title">Work</h1>
+        <h1 className="portfolio-title">Projects</h1>
       </div>
       <div className="container-text portfolio-text">
         <p>Check my commercial and non-commercial projects.</p>

@@ -39,6 +39,8 @@ const Resume = () => {
               <h3 className="resume-title">
                 <span>Work Experience</span>
               </h3>
+              <p className="resume-subtitle">Albiti, South Korea</p>
+              <p className="resume-text">Flutter Engineer, 2022-Present</p>
               <p className="resume-subtitle">STEK, South Korea</p>
               <p className="resume-text">
                 Digital Marketing Team Lead, 2017-2021
@@ -110,11 +112,11 @@ const Resume = () => {
                 <h3 className="card-title" style={{ fontWeight: "bold" }}>
                   App Dev
                 </h3>
-                <p className="card-text">Functional App Dev</p>
+                <p className="card-text">Cross-platform App Dev</p>
                 <p style={{ fontWeight: "bold" }}>Languages:</p>
-                <p>React Native (Learning)</p>
+                <p>Flutter</p>
                 <p style={{ fontWeight: "bold" }}>Dev Tools:</p>
-                <p>Xcode</p>
+                <p>VSCode</p>
               </div>
             </div>
           </div>

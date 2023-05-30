@@ -11,7 +11,7 @@ const Aboutme = () => {
           <p>
             {" "}
             <span className="highlight-text">I'm </span> a{" "}
-            <span className="highlight-text">Junior Python</span> and{" "}
+            <span className="highlight-text">Junior Flutter</span> and{" "}
             <span className="highlight-text"> MERN </span>Developer based in
             Seoul, South Korea.
           </p>

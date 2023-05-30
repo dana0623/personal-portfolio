@@ -1,6 +1,18 @@
 const data = [
   {
     id: 1,
+    img: "../images/cgms_app.png",
+    app_title: "CGMS Mobile App",
+    category: "Flutter",
+    tech_used: ["Flutter,", " API"],
+    description:
+      "Continuous Glucose Monitoring System for diabetes patients. Full Front-end development, heavy use of data from back-end and algorithms.",
+    url: "https://github.com/AlbitiSW/octo-frontend",
+    github_url: "https://github.com/AlbitiSW/octo-frontend",
+  },
+
+  {
+    id: 2,
     img: "../images/cafe_search.png",
     app_title: "Cafe Search App",
     category: "Python",
@@ -11,7 +23,7 @@ const data = [
     github_url: "https://github.com/dana0623/coffee-wifi",
   },
   {
-    id: 2,
+    id: 3,
     img: "../images/youtube-clone.png",
     category: "React",
     app_title: "YouTube Clone",
@@ -21,7 +33,7 @@ const data = [
     github_url: "https://github.com/dana0623/youtube-clone",
   },
   {
-    id: 3,
+    id: 4,
     img: "../images/mapty2.png",
     category: "JavaScript",
     app_title: "Mapty",
@@ -37,7 +49,7 @@ const data = [
     github_url: "https://github.com/dana0623/geolocation-app",
   },
   {
-    id: 4,
+    id: 5,
     img: "../images/amazon-clone.png",
     category: "React",
     app_title: "Amazon Clone",
@@ -56,7 +68,7 @@ const data = [
     github_url: "https://github.com/dana0623/amazon-clone",
   },
   {
-    id: 5,
+    id: 6,
     img: "../images/forkify-img.png",
     category: "JavaScript",
     app_title: "Forkify",
@@ -67,7 +79,7 @@ const data = [
     github_url: "https://github.com/dana0623/recipe-app",
   },
   {
-    id: 6,
+    id: 7,
     img: "../images/bankist.png",
     category: "JavaScript",
     app_title: "Bankist",
@@ -78,7 +90,7 @@ const data = [
     github_url: "https://github.com/dana0623/onlinebanking-app",
   },
   {
-    id: 7,
+    id: 8,
     img: "../images/travel-blog.png",
     category: "Python",
     app_title: "Travel Blog Template",

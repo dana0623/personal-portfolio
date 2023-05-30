@@ -27,7 +27,9 @@ const Header = () => {
           ></img>
         </div>
         <div className="header-text-container col-lg-7">
-          <h4 className="header-subtitle">Full-stack web developer</h4>
+          <h4 className="header-subtitle">
+            Full-stack web & mobile app developer
+          </h4>
           <h1 className="header-title">Natalia Dadasova</h1>
           <Typed
             className="typed-text"
@@ -53,7 +55,10 @@ const Header = () => {
             <button
               className="header-btn resume-btn rounded-pill btn "
               onClick={() => {
-                handleDownload("./Resume-Natalia.pdf", "Resume-Natalia.pdf");
+                handleDownload(
+                  "./Resume-Natalia-FlutterEngineer.pdf",
+                  "Resume-Natalia-FlutterEngineer.pdf"
+                );
               }}
             >
               {" "}

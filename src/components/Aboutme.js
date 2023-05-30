@@ -16,7 +16,7 @@ const Aboutme = () => {
             Seoul, South Korea.
           </p>
           <p>
-            1 year of commercial experience making web apps for SME companies
+            2 years of commercial experience making web apps for SME companies
             globally.
           </p>
           <p>Highly passionate in Tech and Problem Solving.</p>
